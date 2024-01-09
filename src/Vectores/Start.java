@@ -26,11 +26,6 @@ public class Start {
 		}
 		System.out.println(" ");
 
-		// Se imprime al reves
-		for (int i = frase.length - 1; i >= 0; i--) {
-			System.out.print(frase[i]);
-
-		}
 		System.out.println(" ");
 		// Pasar por todas las letra que hay en frase.(Java avanzado)
 		for (char letra : frase) {
